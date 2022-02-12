@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "name": "beauty-care-parlour",
+  "description": "Creating a Website for Beauty Care Parlour,Kandivali (East)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitsekhadiaa/Beauty-Care-Parlour.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitsekhadiaa/Beauty-Care-Parlour/issues"
+  },
+  "homepage": "https://github.com/smitsekhadiaa/Beauty-Care-Parlour#readme"
+}

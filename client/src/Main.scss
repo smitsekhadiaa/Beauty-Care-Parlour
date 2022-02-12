@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+
+body {
+	font: 100%/1.4 Unica One;
+	text-transform: uppercase;
+	background: #222;
+	color: whitesmoke;
+	height: 100vh;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	transition: opacity .4s;
+}
+
+.layer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	color: black;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: transform .4s;
+	transform: 
+			perspective(800px) 
+			scale(1) 
+			translateX(0)
+			rotateY(0);
+	transform-style: preserve-3d;
+
+}
+
+
+nav {
+	align-items: center;
+	vertical-align: center;
+	
+	ul {
+		font-size: larger;
+		line-height: 2;
+		padding-left: 66.66%;
+		text-transform: uppercase;
+		color: whitesmoke;
+		
+		li {
+			cursor: pointer;
+		}
+	}
+}
+
+.home {
+	$color : gold;
+	background: $color;	
+    // background-image: url("https://m.media-amazon.com/images/I/81LVW5ufkvL._SL1500_.jpg");
+    background-size: cover;
+    height:100vh;
+	
+	body:hover & {
+		transform: 
+			perspective(800px) 
+			scale(.5) 
+			translateX(-16.66%)
+			rotateY(25deg);
+	}
+}
+
